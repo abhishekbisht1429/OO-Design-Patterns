@@ -4,7 +4,7 @@ class CodeLinesReader {
 		BufferedReader bR=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the file Name : ");
 		try(PushbackInputStream pbis=new PushbackInputStream(new FileInputStream(bR.readLine()))) {
-			int c,lastPrinted=0;
+			int c,lastPrinted=0,whitespace=0;
 			System.out.println("************************Contents of the File***************************");
 			while((c=pbis.read())!=-1) {
 				switch(c) {
@@ -26,8 +26,10 @@ class CodeLinesReader {
 					          break;
 							 
 
-					case 32 :   if(!(lastPrinted==10))
-						          System.out.print(" ");
+					case 9  :   whitespace=9;
+					case 32 :   whitespace=32;
+					            if(!(lastPrinted==10))
+									System.out.print((char)whitespace);
 						        break;
 					case 47 : if((c=pbis.read())==47) {
 						        while((c=pbis.read())!=13) {
@@ -39,7 +41,7 @@ class CodeLinesReader {
 					          }
 							  else if(c==42) {
 								  while(true) {
-									  //This loop is to skip multiline comments
+									  //This loop is to skip multi-line comments
 									  c=pbis.read();
 									  if(c==42) {
 										  if((c=pbis.read())==47) {
