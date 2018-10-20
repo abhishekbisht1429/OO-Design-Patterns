@@ -9,4 +9,4 @@ This repository is intended to display various capabilities of JAVA Programming 
 - Builder Pattern
 - Singleton class Pattern
 - Factory Method Pattern
-- Dao Pattern
+- Dao(Data Access Object) Pattern
