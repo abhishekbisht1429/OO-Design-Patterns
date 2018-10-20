@@ -7,3 +7,5 @@ This repository is intended to display various capabilities of JAVA Programming 
 ## Structure
 
 - Builder Pattern
+- Singleton class
+- Factory Method Pattern
