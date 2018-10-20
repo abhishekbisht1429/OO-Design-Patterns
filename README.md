@@ -7,5 +7,6 @@ This repository is intended to display various capabilities of JAVA Programming 
 ## Structure
 
 - Builder Pattern
-- Singleton class
+- Singleton class Pattern
 - Factory Method Pattern
+- Dao Pattern
