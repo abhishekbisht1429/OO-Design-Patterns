@@ -1,6 +1,6 @@
 class PrinterFactoryTwo implements PrinterFactory {
   @Override
-  void createPrinter() {
+  public Printer createPrinter() {
     return new PrinterFromTwo();
   }
 }

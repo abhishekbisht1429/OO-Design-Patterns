@@ -7,7 +7,7 @@ class Client {
 
   public void use() {
     Printer p = factory.createPrinter();
-    p.print("AbstactFactory design pattern abstracts the implementation"
+    p.print("AbstactFactory design pattern abstracts the implementation "
             +"from the client");
   }
 }
