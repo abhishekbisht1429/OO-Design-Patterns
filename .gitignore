@@ -1,0 +1,7 @@
+builder_pattern/ModelDemo.class
+builder_pattern/Person$1.class
+builder_pattern/Person$Builder.class
+builder_pattern/Person.class
+singelton_pattern/Singleton.class
+singelton_pattern/SingletonDemo.class
+**/*.class

@@ -1,0 +1,3 @@
+interface PrinterFactory {
+  Printer createPrinter();
+}
