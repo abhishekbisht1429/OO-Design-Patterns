@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Design Patterns
 
 ## Description
@@ -16,3 +17,17 @@ The design patterns can be broadly categorized into three categories[Design Patt
 #### Creational Patterns
 1. **Abstract Factory : **
   <br/> This pattern is used to instantiate objects of related classes through an interface without giving the details of concrete classes to the client.
+=======
+# JAVA-Programming
+
+## Description
+
+This repository is intended to display various capabilities of JAVA Programming languages as well as various software desgin-Patterns used in JAVA.
+
+## Structure
+
+- Builder Pattern
+- Singleton class Pattern
+- Factory Method Pattern
+- Dao(Data Access Object) Pattern
+>>>>>>> origin/master
