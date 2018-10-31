@@ -16,3 +16,9 @@ The design patterns can be broadly categorized into three categories[Design Patt
 #### Creational Patterns
 1. **Abstract Factory :**
   <br/> This pattern is used to instantiate objects of related classes through an interface without giving the details of concrete classes to the client.
+
+2. **Singleton :**
+  <br/> This pattern ensures that a class has only one instance and provides a global point of access to it. 
+
+3. **Builder :**
+  <br/> This pattern is used to seperate object representation from its construction process.
