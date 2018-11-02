@@ -18,7 +18,12 @@ The design patterns can be broadly categorized into three categories[Design Patt
   <br/> This pattern is used to instantiate objects of related classes through an interface without giving the details of concrete classes to the client.
 
 2. **Singleton :**
-  <br/> This pattern ensures that a class has only one instance and provides a global point of access to it. 
+  <br/> This pattern ensures that a class has only one instance and provides a global point of access to it.
 
 3. **Builder :**
   <br/> This pattern is used to seperate object representation from its construction process.
+
+4. **Factory Method :**
+  <br/> This pattern is used when a particular class(known as Creator) does not know in advance which objects(known as products) it must create. The Creator thus uses an interface(say Product) which must be shared by all the different products that the subclasses of this class can create. The Creator necessarily declares a method(usually something like createProduct, makeProduct etc) which returns an an object of type Product. This Method is known as the *Factory Method* as it is reponsible for creation of the object(product).
+
+  Thus Factory method pattern lets a class defer the Object instantiation to its subclasses.
