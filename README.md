@@ -30,3 +30,9 @@ The design patterns can be broadly categorized into three categories[Design Patt
     <br/> This pattern is used in the following two cases<br/>
     1. To avoid unecessary 'subclasses of an Object Creator' for each class of Object that is available for creation. Defining subclasses of Object Creator for each type of Object unnecessarily increases the number of subclasses which differ only in the type of object they create and otherwise follow the same creation procedure.
     2. To provide an alternative to creation of objects using the standard procedure (i.e using 'new') which is relatively expensive. The prototype pattern provides an alternative way to create new objects by cloning them from the prototype.
+
+#### Structural patterns
+1. **Adapter**
+    <br/> This pattern is used to convert an existing interface into another interface which is compatible with the client. The entity reponsible for this conversion is known as adapter.<br/>Adpter pattern can be implemented in two ways
+    1. *Class Adapter :* This implementaion uses inheritance to implent the interface of Adaptee and convert it into an interface compatible with client.
+    2. *Object Adapter :* This implementation uses Object Composition to convert the interface of Adaptee. The adapter contains reference to the instance of Adaptee which it uses to interact with the it via the original interface, while its own interface is the compatible interface which the client expects.
