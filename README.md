@@ -35,4 +35,4 @@ The design patterns can be broadly categorized into three categories[Design Patt
 1. **Adapter**
     <br/> This pattern is used to convert an existing interface into another interface which is compatible with the client. The entity reponsible for this conversion is known as adapter.<br/>Adpter pattern can be implemented in two ways
     1. *Class Adapter :* This implementaion uses inheritance to implent the interface of Adaptee and convert it into an interface compatible with client.
-    2. *Object Adapter :* This implementation uses Object Composition to convert the interface of Adaptee. The adapter contains reference to the instance of Adaptee which it uses to interact with the it via the original interface, while its own interface is the compatible interface which the client expects.
+    2. *Object Adapter :* This implementation uses Object Composition to convert the interface of Adaptee. The adapter contains reference to the instance of Adaptee which it uses to interact with it via the original interface, while its own interface is the compatible one which the client expects.
